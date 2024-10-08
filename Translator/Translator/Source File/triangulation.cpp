@@ -11,3 +11,6 @@ vector<Triangle> Triangulation::get_triangles(const vector<Point>& points) {
     }
     return triangles;
 }
+
+
+

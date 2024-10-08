@@ -9,3 +9,6 @@ Point::~Point() {}
 void Point::get_coord() const {
     cout << "(x = " << x << ", y = " << y << ", z = " << z << ")" << endl;
 }
+
+
+
