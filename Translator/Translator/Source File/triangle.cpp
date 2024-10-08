@@ -11,3 +11,7 @@ void Triangle::get_coord() const {
     p2.get_coord();
     p3.get_coord();
 }
+
+
+
+
