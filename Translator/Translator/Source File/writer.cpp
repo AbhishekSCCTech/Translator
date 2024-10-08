@@ -25,3 +25,7 @@ void Writer::write(const vector<Triangle>& triangles, const vector<double>& uniq
     outfile.close();
     cout << "Data written to " << file << endl;
 }
+
+
+
+
