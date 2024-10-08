@@ -12,3 +12,6 @@ public:
     vector<Point> read();  
     vector<double> get_unique_points();  
 };
+
+
+
