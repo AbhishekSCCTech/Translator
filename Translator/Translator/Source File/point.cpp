@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-Point::Point(double x, double y, double z) : x(x), y(y), z(z) {}
+Point::Point(int x, int y, int z) : x(x), y(y), z(z) {}
 
 Point::~Point() {}
 
