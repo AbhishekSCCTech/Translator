@@ -6,9 +6,10 @@ Point::Point(int x, int y, int z) : x(x), y(y), z(z) {}
 
 Point::~Point() {}
 
-void Point::get_coord() const {
-    cout << "(x = " << x << ", y = " << y << ", z = " << z << ")" << endl;
+array<int, 3> Point::get_coord() const {
+    return {x, y, z};
 }
+
 
 
 

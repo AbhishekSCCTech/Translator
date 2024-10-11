@@ -15,16 +15,18 @@ void Writer::write(const vector<Triangle>& triangles, const vector<double>& uniq
     }
 
     for (const auto& triangle : triangles) {
-        outfile << unique_points[triangle.p1.x] << " " << unique_points[triangle.p1.y] << " " << unique_points[triangle.p1.z] << endl;
-        outfile << unique_points[triangle.p2.x] << " " << unique_points[triangle.p2.y] << " " << unique_points[triangle.p2.z] << endl;
-        outfile << unique_points[triangle.p3.x] << " " << unique_points[triangle.p3.y] << " " << unique_points[triangle.p3.z] << endl;
-        outfile << unique_points[triangle.p1.x] << " " << unique_points[triangle.p1.y] << " " << unique_points[triangle.p1.z] << endl;
+        auto coords = triangle.get_coord();
+        outfile << unique_points[coords[0][0]] << " " << unique_points[coords[0][1]] << " " << unique_points[coords[0][2]] << endl;
+        outfile << unique_points[coords[1][0]] << " " << unique_points[coords[1][1]] << " " << unique_points[coords[1][2]] << endl;
+        outfile << unique_points[coords[2][0]] << " " << unique_points[coords[2][1]] << " " << unique_points[coords[2][2]] << endl;
+        outfile << unique_points[coords[0][0]] << " " << unique_points[coords[0][1]] << " " << unique_points[coords[0][2]] << endl;
         outfile << endl;
     }
 
     outfile.close();
     cout << "Data written to " << file << endl;
 }
+
 
 
 
