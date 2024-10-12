@@ -4,8 +4,6 @@ Here’s the merged and concise version of your `README.md` file:
 
 ---
 
-# STL File Parser and Triangulation
-
 ## Project Description
 This project parses ASCII STL files, extracts vertex data, performs triangulation, and outputs the results for visualization using gnuplot.
 
