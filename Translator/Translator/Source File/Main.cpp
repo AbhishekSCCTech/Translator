@@ -2,16 +2,15 @@
 #include "Triangulation.h"
 #include "Writer.h"
 #include <iostream>
-using namespace std;
 
 int main() {
-    Reader reader;
-    vector<Point> points = reader.read();
+    Reader reader("cube-ascii.stl");
+    std::vector<Point> points = reader.read();
 
     Triangulation triangulation;
-    vector<Triangle> triangles = triangulation.get_triangles(points);
+    std::vector<Triangle> triangles = triangulation.get_triangles(points);
 
-    Writer writer;
+    Writer writer("output.dat");
     writer.write(triangles, reader.get_unique_points());
 
     return 0;
