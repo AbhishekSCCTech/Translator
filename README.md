@@ -39,7 +39,7 @@ This project parses ASCII STL files, extracts vertex data, performs triangulatio
 
 Use gnuplot to visualize the output:
 ```bash
-splot 'D:\Tranlator 1\output.dat' w lp lt 3
+splot '.....\output.dat' w lp lt 3
 ```
 
 ### Output Snapshot:
