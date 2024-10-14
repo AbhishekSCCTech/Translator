@@ -1,9 +1,5 @@
 # Translator
 
-Here’s the merged and concise version of your `README.md` file:
-
----
-
 ## Project Description
 This project parses ASCII STL files, extracts vertex data, performs triangulation, and outputs the results for visualization using gnuplot.
 
