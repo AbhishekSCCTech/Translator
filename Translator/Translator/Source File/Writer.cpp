@@ -25,6 +25,7 @@ void Writer::write(const vector<Triangle>& triangles, const vector<double>& uniq
     outfile.close();
     cout << "Data written to " << file << endl;
 }
+/*
 #include "Writer.h"
 #include <fstream>
 #include <iostream>
@@ -51,3 +52,4 @@ void Writer::write(const std::vector<Triangle>& triangles, const std::vector<dou
     outfile.close();
     std::cout << "Data written to " << file << std::endl;
 }
+*/
