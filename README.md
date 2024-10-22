@@ -9,18 +9,23 @@ This project parses ASCII STL files, extracts vertex data, performs triangulatio
 
 - **Header Files:**
   - [Point.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/Point.h): Defines the `Point` class.
-  - [Reader.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/Reader.h): Reads and processes the STL file data.
+  - [Reader.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/Reader.h): Base Reads and processes the STL file data.
+  - - [STLReader.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/STLReader.h): Derived Reads and processes the STL file data.
   - [Triangle.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/Triangle.h): Defines the `Triangle` class.
   - [Triangulation.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/Triangulation.h): Generates triangles from points.
-  - [Writer.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/Writer.h): Writes the output data to a file.
+  - [Writer.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/Writer.h): 
+ Base Writes the output data to a file.
+  - [STLWriter.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/STLWriter.h): Derived Writes the output data to a file.
 
 - **Source Files:**
   - [main.cpp](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Source%20File/Main.cpp): Main program execution.
   - [Point.cpp](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Source%20File/Point.cpp): Implements `Point` class functions.
   - [Reader.cpp](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Source%20File/Reader.cpp): Implements `Reader` class functions.
+  - [STLReader.cpp](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Source%20File/STLReader.cpp): Implements `STLReader` class functions.
   - [Triangle.cpp](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Source%20File/Triangle.cpp): Implements `Triangle` class functions.
   - [Triangulation.cpp](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Source%20File/Triangulation.cpp): Implements `Triangulation` class functions.
   - [Writer.cpp](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Source%20File/Writer.cpp): Implements `Writer` class functions.
+  - [STLWriter.cpp](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Source%20File/STLWriter.cpp): Implements `STLWriter` class functions.
 
 ---
 
