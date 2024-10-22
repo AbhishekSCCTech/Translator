@@ -18,7 +18,7 @@ This project parses ASCII STL files, extracts vertex data, performs triangulatio
   - [STLWriter.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/STLWriter.h): Derived Writes the output data to a file.
 
 - **Source Files:**
-  - [main.cpp](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Source%20File/Main.cpp): Main program execution.
+  - [Translator.cpp](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Source%20File/Translator.cpp): Main program execution.
   - [Point.cpp](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Source%20File/Point.cpp): Implements `Point` class functions.
   - [Reader.cpp](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Source%20File/Reader.cpp): Implements `Reader` class functions.
   - [STLReader.cpp](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Source%20File/STLReader.cpp): Implements `STLReader` class functions.
