@@ -1,15 +1,16 @@
 #pragma once
-#include <array>
 
 class Point {
 private:
-    int x, y, z;  // Coordinates stored as integers
+    int x;
+    int y;
+    int z;
 
 public:
-    // Constructor and Destructor
-    Point(int x = 0, int y = 0, int z = 0);
+    Point(int x, int y, int z);
     ~Point();
 
-    // Function to return coordinates
-    std::array<int, 3> get_coord() const;
+    int getX() const;
+    int getY() const;
+    int getZ() const;
 };

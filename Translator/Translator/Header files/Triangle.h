@@ -1,15 +1,18 @@
 #pragma once
 #include "Point.h"
-#include <array>
 
 class Triangle {
 private:
-    Point p1, p2, p3;
+    Point vertex1;
+    Point vertex2;
+    Point vertex3;
 
 public:
-    Triangle(Point p1, Point p2, Point p3);
-    ~Triangle();
+    Triangle(Point vertex1, Point vertex2, Point vertex3);
 
-    // Returns coordinates of the triangle's vertices
-    std::array<std::array<int, 3>, 3> get_coord() const;
+    Point getVertex1() const;
+    Point getVertex2() const;
+    Point getVertex3() const;
+
+    ~Triangle();
 };

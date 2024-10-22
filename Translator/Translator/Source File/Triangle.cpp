@@ -1,9 +1,18 @@
 #include "Triangle.h"
 
-Triangle::Triangle(Point p1, Point p2, Point p3) : p1(p1), p2(p2), p3(p3) {}
+Triangle::Triangle(Point vertex1, Point vertex2, Point vertex3)
+    : vertex1(vertex1), vertex2(vertex2), vertex3(vertex3) {}
+
+Point Triangle::getVertex1() const {
+    return vertex1;
+}
+
+Point Triangle::getVertex2() const {
+    return vertex2;
+}
+
+Point Triangle::getVertex3() const {
+    return vertex3;
+}
 
 Triangle::~Triangle() {}
-
-std::array<std::array<int, 3>, 3> Triangle::get_coord() const {
-    return {p1.get_coord(), p2.get_coord(), p3.get_coord()};
-}
