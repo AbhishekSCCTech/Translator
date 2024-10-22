@@ -10,7 +10,7 @@ This project parses ASCII STL files, extracts vertex data, performs triangulatio
 - **Header Files:**
   - [Point.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/Point.h): Defines the `Point` class.
   - [Reader.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/Reader.h): Base Reads and processes the STL file data.
-  - - [STLReader.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/STLReader.h): Derived Reads and processes the STL file data.
+  - [STLReader.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/STLReader.h): Derived Reads and processes the STL file data.
   - [Triangle.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/Triangle.h): Defines the `Triangle` class.
   - [Triangulation.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/Triangulation.h): Generates triangles from points.
   - [Writer.h](https://github.com/AbhishekSCCTech/Translator/blob/main/Translator/Translator/Header%20files/Writer.h): 
